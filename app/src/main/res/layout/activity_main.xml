@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:wp="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    tools:context="com.minicup.waveprogress.MainActivity">
+
+    <com.minicup.waveprogress.WaveProgress
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        wp:centerText="0%"
+        wp:centerTextColor="#ffffff"
+        wp:centerTextSize="20sp"
+        wp:ballColor="@color/colorAccent"
+        wp:ballRadius="150dp"
+        />
+
+</LinearLayout>
